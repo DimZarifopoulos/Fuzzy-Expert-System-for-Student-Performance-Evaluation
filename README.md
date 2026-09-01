@@ -1,4 +1,4 @@
-# Fuzzy Logic Student Performance Prediction System
+# Fuzzy Expert System for Student Performance Evaluation
 
 An academic expert system that uses fuzzy logic to evaluate student performance based on multiple academic criteria.
 
