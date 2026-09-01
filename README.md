@@ -53,7 +53,7 @@ Install the required dependencies:
 
 ```bash
 pip install numpy matplotlib
----
+```
 
 ## How to Run
 
@@ -70,5 +70,6 @@ fuzzy_inference(
     abs_value=5
 )
 
+---
 *Developed as an individual project for the MSc in Informatics during the 2025 academic year.*
 
