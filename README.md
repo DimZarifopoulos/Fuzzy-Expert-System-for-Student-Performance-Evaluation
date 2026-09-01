@@ -58,4 +58,4 @@ pip install numpy matplotlib
 
 
 
---- *Developed as an individual project for the MSc in Informatics for the 2025 academic year. .*
+*Developed as an individual project for the MSc in Informatics during the 2025 academic year.*
