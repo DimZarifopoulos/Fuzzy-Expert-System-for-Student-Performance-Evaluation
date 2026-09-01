@@ -1,60 +1,55 @@
-# Fuzzy-Logic-Based-Student-Performance-Prediction-System
-Academic expert system implementing fuzzy logic to evaluate student performance based on multiple academic criteria.
+# Fuzzy Logic Student Performance Prediction System
 
+An academic expert system that uses fuzzy logic to evaluate student performance based on multiple academic criteria.
 
-This project is an expert system developed as part of the "Expert Systems" course. The system implements Fuzzy Logic to predict a student's overall academic performance based on specific academic criteria.
-Overview
+## Overview
 
-The system processes four input variables to provide an automated performance evaluation:
+This project was developed as part of the **Artificial Intelligence and Advanced Applications** course of the MSc in Informatics.
 
-    - Participation: 0–100% (Low, Medium, High) 
+The system uses a fuzzy inference approach to estimate a student's overall academic performance based on four input variables:
 
-    - Assignment Grades: 0–100 (Poor, Average, Good) 
+- **Participation:** 0–100% (Low, Medium, High)
+- **Assignment Grades:** 0–100 (Poor, Average, Good)
+- **Exam Grades:** 0–100 (Poor, Average, Good)
+- **Absences:** 0–30 (Few, Many)
 
-    - Exam Grades: 0–100 (Poor, Average, Good) 
+The system produces a final **Performance Score** on a scale from 0 to 100.
 
-    - Absences: 0–30 (Few, Many) 
+## Methodology
 
-The system provides a final Performance output on a scale of 0–100.
-Methodology
+The system follows a standard fuzzy inference process:
 
-The system follows a standard Fuzzy Inference process to determine the outcome:
+1. **Fuzzification**  
+   Input values are converted into fuzzy membership values.
 
-    - Fuzzification: Input values (e.g., participation percentage) are converted into fuzzy sets (Low, Medium, High, etc.).
+2. **Rule Evaluation**  
+   A knowledge base of **54 IF-THEN rules** is used to evaluate the inputs.
 
-    - Rule Application: The system utilizes a knowledge base of 54 IF-THEN rules to evaluate the inputs.
+3. **Aggregation**  
+   The outputs of the activated rules are combined into a single fuzzy output set.
 
-    - Aggregation: Partial results are combined into a single fuzzy output set.
+4. **Defuzzification**  
+   The final crisp performance score is calculated using the **Centroid Method**.
 
-    - Defuzzification: The final numerical (crisp) performance value is calculated using the Centroid method.
+## Technologies Used
 
-Prerequisites
+- Python
+- NumPy
+- Matplotlib
+- Fuzzy Logic
+- Expert Systems
 
-The project is built using Python. You will need the following libraries:
+## Features
 
-    numpy
+- Fuzzy membership functions for academic variables
+- 54-rule fuzzy knowledge base
+- Automated student performance evaluation
+- Centroid-based defuzzification
+- Visualization of fuzzy sets and results
 
-    matplotlib
+## Installation
 
-You can install them via pip:
-Bash
+Install the required dependencies:
 
+```bash
 pip install numpy matplotlib
-
-How to Run
-
-    - Ensure the required libraries are installed.
-
-    - Run the Python script in your IDE (e.g., VS Code, PyCharm) or terminal:
-    Bash
-
-    python student_performance_system.py
-
-    - The script executes the fuzzy_inference function. You can modify the parameters at the bottom of the script:
-    Python
-
-    # Example call
-    fuzzy_inference(p_value=70, a_value=80, e_value=65, abs_value=5)
-
----
-*Developed as an individual project for the MSc in Informatics for the 2025 academic year. .*
