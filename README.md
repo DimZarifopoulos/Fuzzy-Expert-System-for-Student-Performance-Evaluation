@@ -53,3 +53,5 @@ Install the required dependencies:
 
 ```bash
 pip install numpy matplotlib
+
+--- *Developed as an individual project for the MSc in Informatics for the 2025 academic year. .*
