@@ -59,17 +59,19 @@ pip install numpy matplotlib
 
 Run the main Python script:
 
+```bash
 python student_performance_system.py
-
+```
 You can test the system by changing the input parameters in the example call:
 
+```bash
 fuzzy_inference(
     p_value=70,
     a_value=80,
     e_value=65,
     abs_value=5
 )
-
+```
 ---
 *Developed as an individual project for the MSc in Informatics during the 2025 academic year.*
 
