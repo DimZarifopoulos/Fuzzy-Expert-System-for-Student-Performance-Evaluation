@@ -2,9 +2,6 @@
 Academic expert system implementing fuzzy logic to evaluate student performance based on multiple academic criteria.
 
 
-Here is a professional README.md file designed for your GitHub repository. It clearly explains the technical implementation of your Expert System, the methodology used, and how to run the project.
-Student Performance Prediction System (Fuzzy Logic)
-
 This project is an expert system developed as part of the "Expert Systems" course. The system implements Fuzzy Logic to predict a student's overall academic performance based on specific academic criteria.
 Overview
 
@@ -60,4 +57,4 @@ How to Run
     fuzzy_inference(p_value=70, a_value=80, e_value=65, abs_value=5)
 
 ---
-*Developed as an individual project for the MSc in Informatics.*
+*Developed as an individual project for the MSc in Informatics for the 2025 academic year. .*
